@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'memories-project-git-main-jenilshah08s-projects.vercel.app/';
+const url = 'https://memories-project-jade.vercel.app/post';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
