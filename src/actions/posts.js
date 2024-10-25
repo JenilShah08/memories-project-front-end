@@ -1,5 +1,5 @@
 import {FETCH_ALL, CREATE, UPDATE, DELETE} from '../constants/actionTypes.js';
-import * as api from '../api';
+import * as api from '../api/index.js';
 
 // Action Creators are functions that return actions.
 
